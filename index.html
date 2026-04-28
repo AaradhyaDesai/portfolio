@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity portfolio for Aaradhya Mangesh Desai: hands-on offensive security, network security, wireless security research, and practical lab projects.">
+  <title>Aaradhya Mangesh Desai | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="threatCanvas" aria-hidden="true"></canvas>
+  <div class="scanline" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Go to home">
+      <span class="brand-mark">AD</span>
+      <span>Aaradhya Desai</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero scroll-scene" data-scene="secure-network">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Cybersecurity & Networks / Offensive Security / Network Security Research</p>
+        <h1>Aaradhya Mangesh Desai</h1>
+        <p>I build practical security labs, analyze real network traffic, document offensive security workflows, and research attack detection in wireless and enterprise environments.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="projects.html">View portfolio</a>
+          <a class="button secondary" href="contact.html">Contact me</a>
+        </div>
+      </div>
+
+      <div class="security-orbit reveal" aria-label="Animated cybersecurity system visual">
+        <div class="orbit-core"><span>AD</span><small>SECURITY</small></div>
+        <div class="orbit-ring ring-one"></div>
+        <div class="orbit-ring ring-two"></div>
+        <div class="orbit-ring ring-three"></div>
+        <div class="orbit-node node-one">OFFSEC</div>
+        <div class="orbit-node node-two">WLAN</div>
+        <div class="orbit-node node-three">HTB</div>
+        <div class="orbit-node node-four">RESEARCH</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Cybersecurity strengths">
+      <div class="ticker-track">
+        <span>Offensive Security</span><span>Network Security</span><span>Wireless Security Research</span><span>Traffic Analysis</span><span>Malware Analysis</span><span>Cloud Security Preparation</span>
+        <span>Offensive Security</span><span>Network Security</span><span>Wireless Security Research</span><span>Traffic Analysis</span><span>Malware Analysis</span><span>Cloud Security Preparation</span>
+      </div>
+    </section>
+
+    <section class="section impact-section scroll-scene" data-scene="overview">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Professional identity</p>
+        <h2>Hands-on Offensive Security + Network Security + Research-Driven Security Engineer.</h2>
+      </div>
+      <div class="metric-grid">
+        <article class="metric-card reveal"><strong>HTB</strong><span>Actively building offensive security depth through Hack The Box labs, GitHub writeups, and Medium documentation.</span></article>
+        <article class="metric-card reveal"><strong>WLAN</strong><span>Research experience in wireless network security, SYN flood detection, traffic capture, and dataset creation.</span></article>
+        <article class="metric-card reveal"><strong>Labs</strong><span>Practical lab builder using Kali Linux, VirtualBox, Raspberry Pi, Linux systems, packet tools, and Python.</span></article>
+        <article class="metric-card reveal"><strong>Cloud</strong><span>Preparing for AWS Certified Security - Specialty while growing toward cloud security engineering and architecture.</span></article>
+      </div>
+    </section>
+
+    <section class="section projects-section scroll-scene" data-scene="site-map">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Explore the portfolio</p>
+        <h2>Focused pages for recruiters, security teams, and collaborators.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open about.html</span><span>profile loaded</span><span>research direction mapped</span></div><p class="project-type">Profile</p><h3>About</h3><p>Professional background, research direction, education, certifications, fellowship, and public speaking.</p><p><a href="about.html">Open page</a></p></article>
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open skills.html</span><span>tools grouped</span><span>capabilities indexed</span></div><p class="project-type">Capabilities</p><h3>Skills</h3><p>Offensive security, network security, detection research, reverse engineering, cloud security, and systems skills.</p><p><a href="skills.html">Open page</a></p></article>
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open experience.html</span><span>timeline rendered</span><span>roles summarized</span></div><p class="project-type">Career</p><h3>Experience</h3><p>Assistant network engineering, cybersecurity research assistance, teaching assistance, and fellowship experience.</p><p><a href="experience.html">Open page</a></p></article>
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open projects.html</span><span>labs displayed</span><span>technical builds ready</span></div><p class="project-type">Technical Work</p><h3>Projects</h3><p>SYN flood lab, ARM64 emulator/parser, WannaCry analysis, Raspberry Pi monitoring, and HTB portfolio system.</p><p><a href="projects.html">Open page</a></p></article>
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open publications.html</span><span>papers listed</span><span>research cited</span></div><p class="project-type">Research</p><h3>Publications</h3><p>IEEE UEMCON and IJSREM publications covering WLAN attack analysis and secure communication.</p><p><a href="publications.html">Open page</a></p></article>
+        <article class="project-card reveal"><div class="project-terminal"><span>$ open htb.html</span><span>writeup format loaded</span><span>boxes documented</span></div><p class="project-type">Offensive Portfolio</p><h3>Hack The Box</h3><p>DevArea, Interpreter, and Appointment work organized around enumeration, exploitation, findings, and lessons learned.</p><p><a href="htb.html">Open page</a></p></article>
+      </div>
+    </section>
+
+    <section class="section contact-section scroll-scene" data-scene="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Connect with me about security roles, research, labs, or collaborations.</h2>
+        <p>Open to conversations with recruiters, security teams, researchers, and collaborators working across offensive security, network security, detection engineering, and cloud security.</p>
+      </div>
+      <div class="contact-links reveal">
+        <a href="mailto:aaradhyadesai123@gmail.com">aaradhyadesai123@gmail.com</a>
+        <a href="https://github.com/your-username">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-username/">LinkedIn</a>
+        <a href="https://medium.com/@your-username">Medium</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year"></span> Aaradhya Mangesh Desai. Built for GitHub Pages.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
